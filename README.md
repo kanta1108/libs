@@ -2,11 +2,11 @@
 文字列をタイピングされているように表示させます。
 
 ## 手順
-### iTyped.jsをインポート
+### HTMLの<head>タグ内にiTyped.jsをインポート
 ``` html
 <script src="https://unpkg.com/ityped@1.0.3"></script>
 ```
-### myItyped.jsをインポート
+### JavaScriptファイルにmyItyped.jsをインポート
 ``` js
 import { CreateTypedText } from "./myItyped";
 ```
