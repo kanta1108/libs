@@ -28,7 +28,7 @@ export class CreateTypedText {
   _create() {
     for (let i = 0; i < this.strings.length; i++) {
       let p = document.createElement("p");
-      p.classList.add(`ityped${i + 1}`);
+      p.classList.add("ityped", `ityped${i + 1}`);
       document.querySelector(this.parent).appendChild(p);
       new MyItyped(`.ityped${i + 1}`, this.strings[i], 500 + 4000 * i);
     }
